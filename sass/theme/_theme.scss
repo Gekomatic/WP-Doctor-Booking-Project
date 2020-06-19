@@ -1,0 +1,175 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@300;400&display=swap");
+
+*:focus {
+	outline: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: #212121;
+}
+
+.wrapper {
+	min-height: 80vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Lato", sans-serif;
+}
+
+.underline {
+	border-bottom: 4px solid $primary;
+	display: inline-block;
+	line-height: 1.8;
+}
+
+.site-top {
+	background-color: $primary;
+	color: #fff;
+}
+
+#main-menu > li:last-child a {
+	@extend .btn;
+	@extend .btn-primary;
+	margin-left: 0.75rem;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+a.navbar-brand {
+	padding: 0.45rem 0.8rem !important;
+	background: #615550 !important;
+	color: white !important;
+	border-radius: 0.2rem !important;
+}
+
+.site-main {
+	height: 100%;
+}
+
+.hero {
+	height: 88vh;
+	background: url(http://localhost/wordpress/wp-content/uploads/2020/06/511576-PI4UWX-557-scaled.jpg)
+		no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.hero-text {
+	background: rgba(235, 235, 235, 0.75);
+	padding: 4rem 2rem;
+}
+
+.hero-content {
+	height: 100%;
+}
+
+section.about {
+	margin-top: 4rem;
+}
+
+section.features {
+	@include gradient(left, $list1);
+}
+
+footer a.footer-link {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+// WOOCOMMERCE
+
+.woocommerce-product-gallery__image {
+	pointer-events: none;
+}
+
+.woocommerce-breadcrumb {
+	display: none;
+}
+
+.posted_in {
+	display: none;
+}
+
+button[name="update_cart"] {
+	display: none;
+}
+
+// RESPONSIVE
+
+@media (max-width: 991px) {
+	.woocommerce-product-gallery {
+		display: none;
+	}
+
+	.summary.entry-summary {
+		display: block;
+		width: 100% !important;
+		margin-top: 1rem;
+	}
+}
+
+@media (max-width: 767px) {
+	#main-menu {
+		text-align: center;
+	}
+
+	#main-menu > li:last-child a {
+		margin-left: 0;
+	}
+
+	.hero {
+		margin-top: 2rem;
+	}
+
+	main.hero-text {
+		background: rgb(250, 250, 250);
+	}
+
+	.footer-info {
+		margin-bottom: 2rem;
+	}
+
+	footer {
+		text-align: center !important;
+		padding: 2rem 0;
+
+		a.navbar-brand {
+			margin-right: 0;
+		}
+
+		.footer-info i.fa {
+			display: block;
+			font-size: 2rem;
+			margin: 1rem 0;
+			margin-right: 0 !important;
+		}
+
+		li .footer-list {
+			background-color: green;
+			margin-bottom: 4rem !important;
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	main.site-main {
+		color: #000 !important;
+	}
+
+	.hero {
+		background: rgb(250, 250, 250);
+		text-align: center;
+		padding: 4rem 0;
+		height: 80vh;
+	}
+}

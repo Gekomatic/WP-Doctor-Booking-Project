@@ -1,0 +1,19 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+$primary: #00bcd4; // Thats a sample how you could change a BootStrap variable.
+$primary-light: #01d2ee;
+$primary-dark: #0097a7;
+$secondary: #9e9e9e;
+$secondary-light: #eeeeee;
+
+// FEATURES GRADIENT
+$list1: $primary-light, $primary;
+
+@mixin gradient($direction, $list) {
+	background: -webkit-linear-gradient($direction, $list);
+	background: -moz-linear-gradient($direction, $list);
+	background: -o-linear-gradient($direction, $list);
+	background: linear-gradient($direction, $list);
+}
