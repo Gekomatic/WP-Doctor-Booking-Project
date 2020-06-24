@@ -42,7 +42,7 @@ h5 {
 
 .nav-link {
 	text-transform: uppercase;
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.05rem;
 }
 
 a.navbar-brand {
@@ -62,6 +62,7 @@ a.navbar-brand {
 		no-repeat;
 	background-size: cover;
 	background-position: top center;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-text {

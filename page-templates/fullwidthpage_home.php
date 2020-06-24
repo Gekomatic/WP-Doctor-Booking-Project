@@ -59,19 +59,19 @@ if ( is_front_page() ) {
 				</div>
 			</div>
 			<div class="col-12 col-lg-6 offset-lg-1">
-				<h1 class=" mt-md-4 mb-md-4">Dr. Marion Fonseca Arteaga</h1>
+				<h1 class="mt-md-4 mb-md-4">Dr. Marion Fonseca Arteaga</h1>
 				<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quidem mollitia quam quae maiores dignissimos.</p>
-				<p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni amet aspernatur 
+				<p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni amet aspernatur 
 					natus nihil. Excepturi, explicabo dolorem? Quidem non tempore, sit veritatis eum laborum, 
 					quia dicta error molestias doloribus ab aliquid.</p>
-				<p class="">Lorem ipsum dolor sit amet consectetur.</p>
+				<p class="lead">Lorem ipsum dolor sit amet consectetur.</p>
 			</div>
 		</div>
 	</div>
 </section>
 
 <section class="features">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,288L48,277.3C96,267,192,245,288,234.7C384,224,480,224,576,234.7C672,245,768,267,864,256C960,245,1056,203,1152,181.3C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,288L48,277.3C96,267,192,245,288,234.7C384,224,480,224,576,234.7C672,245,768,267,864,256C960,245,1056,203,1152,181.3C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg> -->
 	<div class="container py-4">
 		<div class="row pt-4 text-white">
 			<div class="col-12 col-lg-4 feature py-4 my-4 text-center">

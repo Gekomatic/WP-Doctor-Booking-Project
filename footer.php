@@ -17,7 +17,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <footer class="site-footer py-4">
 	<div class="container">
-		<p class="text-center mb-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a> Copyright &copy; <?php _e(date('Y')); ?>. Todos los derechos reservados  <span class="text-black-50">|</span>  <?php printf(
+		<p class="text-center mb-0">Copyright &copy; <?php _e(date('Y')); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>. Todos los derechos reservados  <span class="text-black-50">|</span>  <?php printf(
     '<a href="%s">%s</a>',
     get_permalink( get_option( 'wp_page_for_privacy_policy' ) ),
     esc_html( __( 'Políticas de privacidad' ) )
