@@ -28,7 +28,7 @@ if ( is_front_page() ) {
 
 				<main class="site-main hero-text rounded-lg text-black text-center font-weight-bolder" id="main" role="main">
 
-					<h1 class="display-3 pb-3">LOREM IPSUM</h1>
+					<h2 class="display-3 pb-3">Nos preocupamos por tu <span class="text-primary">bienestar</span></h2>
 
 					<p class="lead pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatum 
 						quas saepe asperiores laboriosam molestiae, a earum facere blanditiis fugit.</p>
