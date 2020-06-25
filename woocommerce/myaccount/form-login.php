@@ -39,7 +39,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 				<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="<?php echo ( ! empty( $_POST['username'] ) ) ? esc_attr( wp_unslash( $_POST['username'] ) ) : ''; ?>" /><?php // @codingStandardsIgnoreLine ?>
 			</p>
 			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-				<label class="" for="password"><?php esc_html_e( 'Password', 'understrap' ); ?>&nbsp;<span class="required">*</span></label>
+				<label for="password"><?php esc_html_e( 'Password', 'understrap' ); ?>&nbsp;<span class="required">*</span></label>
 				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
 			</p>
 
